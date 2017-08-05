@@ -1,0 +1,266 @@
+@media screen and (max-width: 935px) {
+    .logo {
+      opacity: 0;
+    }
+    .fblogo {
+      display: none;
+    }
+    .navbar {
+      margin-top: 30px;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+      font-size: 40px !important;
+      text-transform: uppercase;
+    }
+
+    .priestdiv {
+      display: inline-block;
+    }
+
+    .navbar-collapse.animated.fadeIn.collapse.in {
+      max-height: none;
+    }
+
+
+}
+
+@media screen and (max-width: 1079px) {
+    #leftnavbar {
+      display: none;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    #carouselimg {
+      padding-right: 0px;
+      padding-left: 0px;
+    }
+}
+
+@media screen and (max-width: 675px) {
+
+    h1 {
+      margin-bottom: 20px;
+      font-size: 32px !important;
+      text-transform: uppercase;
+    }
+}
+
+body {
+  background-color: #DCD0C0;
+}
+
+.headingspace {
+  background-color: #DCD0C0;
+}
+
+.sitemapnav {
+  background-color: #DCD0C0;
+}
+
+.logo {
+  height: 115px;
+}
+
+.maindropdown {
+  color: white;
+  background-color: #DCD0C0;
+}
+
+.maindropdown>li>a {
+  padding: 10px;
+}
+
+ul.maindropdown>li>a:hover {
+  background-image: none;
+  background-color: #373737 !important;
+  color: white;
+}
+
+nav {
+  background-color: #373737;
+}
+
+.fblogo {
+  height: 60px;
+  width: auto;
+  text-align: right;
+  margin-top: -35px;
+  position: relative;
+  animation-delay: 0.3s;
+  margin-right: 15px;
+}
+
+.fblogo:hover {
+  filter: grayscale(100%);
+}
+
+#headerlogo {
+  height: 100px;
+  width: auto;
+  margin-top: 15px;
+  margin-left: 40px;
+  animation-delay: 0.25s;
+}
+
+#headertitle {
+  font-family: Comfortaa;
+  font-size: 40px;
+  text-align: center;
+  margin-top: -70px;
+  animation-delay: 0.25s;
+}
+
+.sitemapnav {
+  animation-delay: 0.7s;
+}
+
+#leftnavbar li a{
+  margin-left: 200px;
+  font-family: Comfortaa;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: black;
+}
+
+#leftnavbar li a:hover{
+  color: white;
+  font-weight: bolder;
+  background-color: #373737;
+
+}
+
+li.dropdown.open {
+  background-image: none;
+  background-color: #DCD0C0;
+}
+
+
+#navbar li a {
+  color: black;
+  font-family: Comfortaa;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+#navbar li a:hover{
+  color: white;
+  font-weight: bolder;
+  background-color: #373737;
+}
+
+.dropdown-menu {
+  padding: 0px;
+}
+
+.dropdown-menu .divider {
+  background-color: #373737 !important;
+  margin: 0px 0;
+}
+
+#navcol {
+  background-color: #373737;
+}
+
+#navcol:hover {
+  background-color: #373737;
+  color: white;
+}
+
+div.carousel {
+  animation-delay: 1s;
+  margin-top: 110px;
+  background-color: #DCD0C0;
+}
+
+@media screen and (max-width: 935px) {
+    #carousel {
+    margin-top: 150px;
+  }
+}
+
+#welcome {
+  background-color: #373737;
+  padding: 40px;
+  animation-delay: 1s;
+  border-radius: 5px;
+  color: white;
+}
+
+#subscribe {
+  background-color: #373737;
+  color: white;
+  border-radius: 5px;
+
+
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a {
+  color: white;
+  background-image: none;
+  background-color: #373737;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a:hover {
+  color: white;
+  background-image: none;
+  background-color: #373737;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+  color: white;
+  background-image: none;
+  background-color: #373737;
+}
+
+#mc_embed_signup input {
+    border: none;
+}
+
+#mc-embedded-subscribe {
+    margin: auto;
+}
+
+.validate {
+  background-color: #373737;
+}
+
+.hours {
+  background-color: #373737;
+  color: white;
+  border-radius: 5px;
+}
+
+#getdirections {
+  font-family: Arial;
+}
+
+#getdirections:hover {
+  animation-play-state: paused;
+}
+
+.goomap iframe {
+  width: 100% !important; 
+  margin-bottom: -5px;
+}
+
+#mapAddress{
+  text-align: center;
+  background-color: #373737;
+  padding: 10px;
+  color: white;
+}
+
+#priest {
+  height: 300px;
+}
+
+.priestdiv {
+  display: table-cell;
+}
+
+#divider {
+  width: 850px;
+}
